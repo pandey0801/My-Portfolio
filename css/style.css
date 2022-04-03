@@ -1,0 +1,51 @@
+@import 'uti.css';
+:root{
+--primary:#3DCFD3;
+--dark:#161616;
+--pure:#FFFFFF;
+--ternary : #898989;
+--light:#F2F2F
+
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+body{
+    background-color: rebeccapurple;
+    font-family: poopins,sans-serif;
+}
+
+header{
+    background-color: #161616;
+    height: 800px;
+
+}
+
+.cantainer{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: #3DCFD3;
+
+}
+
+header nav{
+    padding: 0.75rem 0;
+}
+ header nav .branding{
+     margin-right: 3rem;
+ }
