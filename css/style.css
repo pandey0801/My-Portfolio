@@ -20,8 +20,8 @@ body{
 }
 
 header{
-    background-color: #161616;
-    height: 800px;
+    background-color:var(--dark);
+    clip-path: polygon(0 0, 100% 0 ,100% 100% ,70% 90%,0 100%); /*corrdinat in x,y. we have to give 5 point*/
 
 }
 
@@ -40,7 +40,6 @@ header nav .left a{
 }
 header nav .left a:hover{
     color: #3DCFD3;
-
 }
 
 header nav{
@@ -49,3 +48,33 @@ header nav{
  header nav .branding{
      margin-right: 3rem;
  }
+
+ .hero{
+     padding: 0 0 ; /*padding (top bottom) (left right) */
+ }
+.hero .left{
+    width: 800px;
+}
+.hero .right{
+    color: var(--pure);
+    margin-top: -3rem;  /*-value grab up*/
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0.5rem;
+}
+.hero.right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2 ;
+    margin-bottom: rem;
+}
+.hero .right h1 span{
+    color: var(--primary);
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
